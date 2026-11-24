@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me & CV Portfolio | AirCV Theme</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-ibispaint.svg">
+
+  <!-- Google Fonts (Poppins & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom AirCV Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarAirCV" data-bs-offset="100">
+
+  <!-- ===================================================================
+       HEADER & NAVIGATION BAR (AirCV Clean Navbar)
+       =================================================================== -->
+  <nav id="navbarAirCV" class="navbar navbar-expand-lg navbar-dark navbar-aircv">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <!-- GANTI NAMA BRAND / LOGO DI SINI -->
+        <span>Portfolio<span class="brand-dot">.</span>CV</span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars-staggered text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intrest">Intrest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-cta-btn" href="#contact">
+              <i class="fas fa-paper-plane me-1"></i> Hubungi Saya
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================================================================
+       PAGE 1: HOME (Hero Section with Background Image, Name, Occupation,
+       Origin City, and Self Description)
+       =================================================================== -->
+  <section id="home">
+    <!-- BACKGROUND PHOTO WRAPPER:
+         Anda dapat mengganti file 'assets/images/hero-bg.svg' dengan foto background Anda sendiri,
+         misalnya: 'assets/images/hero-bg.jpg'
+    -->
+    <div class="hero-background-wrapper">
+      <img src="assets/images/background-cv.jpeg" alt="Hero Background" class="hero-background-img" id="heroBgImage">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center gy-5">
+        <!-- Hero Text & Details -->
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="hero-badge">
+            <i class="fas fa-sparkles"></i> Welcome
+          </div>
+
+          <!-- GANTI NAMA ANDA DI SINI -->
+          <h1 class="hero-title">
+            Halo, saya <br>
+            <span class="text-highlight">Muhammad Rasyaki</span>
+          </h1>
+
+          <!-- OCCUPATION & KOTA ASAL -->
+          <div class="hero-occupation-box justify-content-center justify-content-lg-start">
+            <!-- GANTI OCCUPATION / PROFESI DI SINI -->
+            <div class="hero-occupation">
+              <i class="fas fa-palette me-2"></i>Digital Artist &amp; University Student
+            </div>
+            <!-- KOTA ASAL (REJANG LEBONG) -->
+            <div class="hero-location-badge">
+              <i class="fas fa-map-marker-alt text-danger"></i> Rejang Lebong, Curup, Bengkulu
+            </div>
+          </div>
+
+          <!-- DESKRIPSI DIRI -->
+          <p class="hero-description">
+            Saya sekarang adalah siswa universitas muhammadyah bengkulu yang sekarang sedang menjalani studi si bidang Sistem Informasi. saya bisa mengedit fidio, menggambar, menguasai microsoft office, dan tertarik mempelajari teknologi terkini.
+          </p>
+
+          <!-- ACTION BUTTONS -->
+          <div class="hero-buttons justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn btn-primary-aircv">
+              <i class="fas fa-user-circle"></i> Tentang Saya
+            </a>
+            <a href="#skill" class="btn btn-outline-aircv">
+              <i class="fas fa-layer-group"></i> Lihat Skill &amp; Karya
+            </a>
+          </div>
+
+          <!-- SOCIAL MEDIA BUTTONS -->
+          <div class="hero-socials justify-content-center justify-content-lg-start">
+            <span>Ikuti Saya:</span>
+            <!-- GANTI LINK SOSIAL MEDIA ANDA DI SINI -->
+            <a href="https://www.instagram.com/just_jammer?utm_source=ig_web_button_share_sheet&dmpr=ZDNlZDc0MzIxNw==" target="_blank" class="social-circle-btn" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@m.rasyaki?_r=1&_t=ZS-9BeDkBgO6RI" target="_blank" class="social-circle-btn" title="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/@m_rasyaki?si=8F0Gt_iIwxH4nVA6" target="_blank" class="social-circle-btn" title="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar / Profile Photo Frame -->
+        <div class="col-lg-5">
+          <div class="hero-avatar-card">
+            <div class="avatar-frame">
+              <!-- GANTI FOTO PROFIL ANDA DI SINI:
+                   Bisa diganti dengan: src="assets/images/profile.jpg"
+              -->
+              <img src="assets/images/fotoprofil-cv.jpeg" alt="Foto Profil" class="avatar-img" id="heroProfileImg">
+            </div>
+            
+            <div class="avatar-badge-float">
+              <i class="fas fa-paint-brush"></i>
+              <div>
+                <div style="font-size: 0.75rem; color: #a4b0be; text-align: left;">Fokus Minat</div>
+                <div style="font-weight: 700;">Digital Art &amp; Tecnology</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PAGE 2: ABOUT (Penjelasan diri, Riwayat Pendidikan, Pengalaman Magang
+       + 6 Panel Foto Magang)
+       =================================================================== -->
+  <section id="about">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Tentang Diri Saya</h2>
+        <p class="section-subtitle">
+          Mengenal latar belakang, perjalanan pendidikan, dan pengalaman magang yang telah saya tempuh.
+        </p>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- 1. Penjelasan Tentang Diri Saya -->
+      <div class="about-intro-card">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-12">
+            <h3 class="about-intro-title">
+              <i class="fas fa-id-card"></i> Profil &amp; Riwayat Pendidikan
+            </h3>
+            <p>
+              Halo! saya adalah mahasiswa universitas muhammadyah Bengkulu yang berasal dari <strong>Rejang Lebong, Curup, Bengkulu</strong>. Saya memiliki ketertarikan dalam menggambar, musik, dan teknologi. sekaligus, menguasai Microsoft Office dan Design visual. dalam mengerjakan tugas saya, saya selalu mengedepankan tanggung jawab dan adaptibilitas terhadap tantangan yang datang.
+            </p>
+            <div class="about-highlight-box">
+              "Saya menghitung progres bukan dari seberapa lama yang dilakukan telah berjalan, tapi seberapa banyak yang telah di buat"
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Riwayat Pendidikan -->
+      <div class="row mb-5">
+        <div class="col-lg-12">
+          <h3 class="timeline-section-title">
+            <i class="fas fa-graduation-cap"></i> Riwayat Pendidikan
+          </h3>
+          
+          <div class="education-timeline">
+            <!-- Pendidikan 1: Universitas Muhammadyah Bengkulu -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <i class="fas fa-school"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-level-badge">Perguruan Tinggi Muhammadyah</span>
+                <h4 class="timeline-institution">Universitas Muhammadyah Bengkulu</h4>
+                <div class="timeline-location">
+                  <i class="fas fa-map-marker-alt text-danger"></i> Kota Bengkulu, Bengkulu
+                </div>
+                <p class="timeline-desc">
+                  Menempuh perguruan ringgi yang melatih kedisiplinan, kompetensi teknis dan akademis, penyelesaian proyek, dan meningkatkan iman dan taqwa kepada Allah SWT.
+                </p>
+              </div>
+            </div>
+
+            <!-- Pendidikan 2: SMKN 1 Rejang Lebong -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <i class="fas fa-school"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-level-badge">Sekolah Menengah Kejuruan</span>
+                <h4 class="timeline-institution">SMKN 1 Rejang Lebong</h4>
+                <div class="timeline-location">
+                  <i class="fas fa-map-marker-alt text-danger"></i> Rejang Lebong, Curup, Bengkulu
+                </div>
+                <p class="timeline-desc">
+                  Menempuh pendidikan kejuruan yang melatih kompetensi teknis, kedisiplinan, profesionalitas kerja, serta penyelesaian proyek nyata dan program magang kerja industri.
+                </p>
+              </div>
+            </div>
+
+            <!-- Pendidikan 3: SMPN 5 Rejang Lebong -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <i class="fas fa-book-reader"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-level-badge">Sekolah Menengah Pertama</span>
+                <h4 class="timeline-institution">SMPN 5 Rejang Lebong</h4>
+                <div class="timeline-location">
+                  <i class="fas fa-map-marker-alt text-danger"></i> Rejang Lebong, Curup, Bengkulu
+                </div>
+                <p class="timeline-desc">
+                  Masa pengembangan potensi akademik, membangun dasar minat dalam seni menggambar, literasi, dan kolaborasi dalam kegiatan sekolah.
+                </p>
+              </div>
+            </div>
+
+            <!-- Pendidikan 4: SDN 97 Rejang Lebong -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <i class="fas fa-pencil-alt"></i>
+              </div>
+              <div class="timeline-card">
+                <span class="timeline-level-badge">Sekolah Dasar</span>
+                <h4 class="timeline-institution">SDN 97 Rejang Lebong</h4>
+                <div class="timeline-location">
+                  <i class="fas fa-map-marker-alt text-danger"></i> Rejang Lebong, Curup, Bengkulu
+                </div>
+                <p class="timeline-desc">
+                  Pendidikan dasar yang menanamkan nilai-nilai kedisiplinan, budi pekerti, serta rasa ingin tahu yang tinggi dalam belajar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Pengalaman Magang & 6 Panel Foto Magang -->
+      <div class="internship-wrapper">
+        <div class="internship-header">
+          <h3 class="internship-title">
+            <i class="fas fa-briefcase"></i> Pengalaman Magang (Internship)
+          </h3>
+          <!-- DESKRIPSI MAGANG -->
+          <p class="internship-desc">
+            Selama menjalani program Praktik Kerja Lapangan (Magang), saya mendapatkan kesempatan untuk menerapkan keterampilan langsung di lingkungan kerja profesional. Saya terlibat dalam penanganan tugas di lapangan serta berkoordinasi dengan staf pembimbing dan rekan kerja. Pengalaman ini membentuk etos kerja, ketelitian, dan kemampuan komunikasi yang solid.
+          </p>
+        </div>
+
+        <!-- 6 PANEL FOTO MAGANG (Bisa diisi foto saat magang) -->
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+          <h5 class="fw-bold mb-0 text-dark">
+            <i class="fas fa-camera-retro text-primary me-2"></i> Dokumentasi Kegiatan Magang (6 Foto)
+          </h5>
+          <small class="text-muted">Klik panel untuk melihat preview foto</small>
+        </div>
+
+        <div class="photo-panel-grid">
+          <!-- Panel Foto 1 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-1.svg" data-title="Dokumentasi Magang #1" data-desc="Aktivitas awal pelaksanaan program magang dan pengenalan lingkungan kerja.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-1.jpg" -->
+              <img src="assets/images/fotomagang1.jpeg" alt="Dokumentasi Magang 1" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #1</h6>
+            </div>
+          </div>
+
+          <!-- Panel Foto 2 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-2.svg" data-title="Dokumentasi Magang #2" data-desc="Kolaborasi dan koordinasi tugas bersama rekan kerja di unit magang.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-2.jpg" -->
+              <img src="assets/images/fotomagang2.jpeg" alt="Dokumentasi Magang 2" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #2</h6>
+            </div>
+          </div>
+
+          <!-- Panel Foto 3 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-3.svg" data-title="Dokumentasi Magang #3" data-desc="Pengerjaan administrasi, pengarsipan dokumen, dan input data.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-3.jpg" -->
+              <img src="assets/images/fotomagang3.jpeg" alt="Dokumentasi Magang 3" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #3</h6>
+            </div>
+          </div>
+
+          <!-- Panel Foto 4 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-4.svg" data-title="Dokumentasi Magang #4" data-desc="Penyusunan laporan berkala dan pemanfaatan tools komputer kantor.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-4.jpg" -->
+              <img src="assets/images/fotomagang4.jpeg" alt="Dokumentasi Magang 4" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #4</h6>
+            </div>
+          </div>
+
+          <!-- Panel Foto 5 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-5.svg" data-title="Dokumentasi Magang #5" data-desc="Sesi bimbingan teknis bersama pembimbing lapangan dan staf profesional.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-5.jpg" -->
+              <img src="assets/images/fotomagang5.jpeg" alt="Dokumentasi Magang 5" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #5</h6>
+            </div>
+          </div>
+
+          <!-- Panel Foto 6 -->
+          <div class="photo-panel-card gallery-trigger" data-img="assets/images/magang-6.svg" data-title="Dokumentasi Magang #6" data-desc="Foto bersama pada akhir program magang dan penyerahan hasil laporan.">
+            <div class="photo-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/magang-6.jpg" -->
+              <img src="assets/images/fotomagang6.jpeg" alt="Dokumentasi Magang 6" class="photo-panel-img">
+              <div class="photo-panel-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Perbesar Foto</span>
+              </div>
+            </div>
+            <div class="photo-panel-info">
+              <h6 class="photo-panel-title">Dokumentasi Magang #6</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PAGE 3: SKILL (Microsoft Office, Canva, Video Editing, Ibis Paint
+       + 6 Panel Foto Karya Digital Ibis Paint)
+       =================================================================== -->
+  <section id="skill">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <span class="section-tag">Skills &amp; Expertise</span>
+        <h2 class="section-title">Kemampuan yang Dimiliki</h2>
+        <p class="section-subtitle">
+          Kombinasi keahlian teknis administrasi, desain kreatif, video editing, dan seni ilustrasi digital yang saya kuasai secara mendalam.
+        </p>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- 4 Skill Cards Grid -->
+      <div class="skill-cards-grid">
+        
+        <!-- SKILL 1: MICROSOFT OFFICE (Dengan Logo Microsoft Office) -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-logo-wrap">
+              <!-- LOGO MICROSOFT OFFICE -->
+              <img src="assets/images/logomicrosoft.webp" alt="Logo Microsoft Office" title="Microsoft Office">
+            </div>
+            <div class="skill-meta">
+              <h4 class="skill-name">Microsoft Office</h4>
+              <span class="skill-level-tag tag-office">Mahir</span>
+            </div>
+          </div>
+          <p class="skill-desc">
+            Menguasai paket aplikasi perkantoran utama: <strong>Word</strong> (penyusunan dokumen formal, format skripsi/laporan, mail merge), <strong>Excel</strong> (rumus logika, tabel, visualisasi data grafik), dan <strong>PowerPoint</strong> (desain slide presentasi interaktif dan menarik).
+          </p>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-labels">
+              <span>Tingkat Penguasaan</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill fill-office"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILL 2: CANVA (Dengan Logo Canva) -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-logo-wrap">
+              <!-- LOGO CANVA -->
+              <img src="assets/images/logocanva.jpg" alt="Logo Canva" title="Canva">
+            </div>
+            <div class="skill-meta">
+              <h4 class="skill-name">Canva Design</h4>
+              <span class="skill-level-tag tag-canva">Kreatif, Mahir &amp; Cepat</span>
+            </div>
+          </div>
+          <p class="skill-desc">
+            Mampu membuat berbagai materi visual komunikatif seperti poster, infografis, banner, thumbnail media sosial, feeds Instagram, dan template presentasi dengan komposisi warna dan tata letak yang estetis dan harmonis.
+          </p>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-labels">
+              <span>Tingkat Penguasaan</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill fill-canva"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILL 3: VIDEO EDITING -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-logo-wrap">
+              <!-- LOGO VIDEO EDITING -->
+              <img src="assets/images/logocapcut.webp" alt="Logo Video Editing" title="Video Editing">
+            </div>
+            <div class="skill-meta">
+              <h4 class="skill-name">Video Editing</h4>
+              <span class="skill-level-tag tag-video">Multi-Platform</span>
+            </div>
+          </div>
+          <p class="skill-desc">
+            Mampu melakukan pemotongan video (cutting/trimming), sinkronisasi audio dan backsound musik, penambahan transisi halus, efek visual, teks/subtitel dinamis, serta pembuatan video pendek untuk TikTok, Reels, dan YouTube Shorts.
+          </p>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-labels">
+              <span>Tingkat Penguasaan</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill fill-video"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILL 4: IBIS PAINT (Dengan Logo Ibis Paint) -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-logo-wrap">
+              <!-- LOGO IBIS PAINT -->
+              <img src="assets/images/logoibis.webp" alt="Logo Ibis Paint" title="Ibis Paint">
+            </div>
+            <div class="skill-meta">
+              <h4 class="skill-name">Ibis Paint (Digital Art)</h4>
+              <span class="skill-level-tag tag-ibis">Passion &amp; Ilustrasi</span>
+            </div>
+          </div>
+          <p class="skill-desc">
+            Menguasai teknik menggambar digital menggunakan Ibis Paint: pembuatan sketsa, lineart presisi, pewarnaan berlapis (layering), teknik pencahayaan dan bayangan (shading &amp; highlights), serta eksplorasi beragam jenis kuas (brushes).
+          </p>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-labels">
+              <span>Tingkat Penguasaan</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill fill-ibis"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 6 PANEL FOTO KARYA DIGITAL IBIS PAINT -->
+      <div class="ibis-gallery-box">
+        <div class="ibis-gallery-header">
+          <div>
+            <h3 class="ibis-header-title">
+              <img src="assets/images/logoibis.jpg" alt="Ibis Paint" width="36" height="36">
+              Galeri Karya Digital Art (Ibis Paint)
+            </h3>
+            <p class="text-muted mb-0 mt-1">
+              Berikut adalah 6 panel karya gambar digital yang saya buat. Anda dapat mengganti foto-foto ini dengan karya asli Anda!
+            </p>
+          </div>
+          <div class="ibis-gallery-badge">
+            <i class="fas fa-paint-brush"></i> 6 Panel Karya
+          </div>
+        </div>
+
+        <div class="art-panel-grid">
+          <!-- Panel Karya 1 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-1.svg" data-title="Karya Digital Art #1" data-desc="Ilustrasi karakter digital dengan teknik lineart dan pewarnaan menggunakan Ibis Paint.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-1.jpg" -->
+              <img src="assets/images/art1.jpeg" alt="Karya Digital 1" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #1</h6>
+            </div>
+          </div>
+
+          <!-- Panel Karya 2 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-2.svg" data-title="Karya Digital Art #2" data-desc="Eksplorasi fanart karakter dan desain orisinal dengan gaya visual anime/semi-realis.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-2.jpg" -->
+              <img src="assets/images/art2.jpeg" alt="Karya Digital 2" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #2</h6>
+            </div>
+          </div>
+
+          <!-- Panel Karya 3 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-3.svg" data-title="Karya Digital Art #3" data-desc="Eksperimen pencahayaan dramatis dan perpaduan palet warna harmonis.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-3.jpg" -->
+              <img src="assets/images/art3.jpeg" alt="Karya Digital 3" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #3</h6>
+            </div>
+          </div>
+
+          <!-- Panel Karya 4 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-4.svg" data-title="Karya Digital Art #4" data-desc="Ilustrasi pemandangan latar belakang bernuansa estetik dan penuh suasana.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-4.jpg" -->
+              <img src="assets/images/art4.jpeg" alt="Karya Digital 4" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #4</h6>
+            </div>
+          </div>
+
+          <!-- Panel Karya 5 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-5.svg" data-title="Karya Digital Art #5" data-desc="Sketsa dinamis dan lineart bersih menguji proporsi anatomi dan ekspresi.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-5.jpg" -->
+              <img src="assets/images/art5.jpeg" alt="Karya Digital 5" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #5</h6>
+            </div>
+          </div>
+
+          <!-- Panel Karya 6 -->
+          <div class="art-panel-card gallery-trigger" data-img="assets/images/karya-6.svg" data-title="Karya Digital Art #6" data-desc="Konsep gambar cepat (speedpaint) dengan sapuan kuas kreatif dan tekstur kaya.">
+            <div class="art-panel-img-wrap">
+              <!-- GANTI FOTO DI SINI: src="assets/images/karya-6.jpg" -->
+              <img src="assets/images/art6.jpeg" alt="Karya Digital 6" class="art-panel-img">
+              <div class="art-panel-overlay">
+                <i class="fas fa-eye"></i>
+                <span class="fw-bold">Lihat Detail Karya</span>
+              </div>
+            </div>
+            <div class="art-panel-info">
+              <h6 class="art-panel-title">Karya Digital Art #6</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PAGE 4: INTREST (Hal yang disukai & Hobi: Menggambar, Musik,
+       Roblox: Grave/Digger & Grace, Membaca Buku)
+       =================================================================== -->
+  <section id="intrest">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <span class="section-tag">Interests &amp; Hobbies</span>
+        <h2 class="section-title">Minat &amp; Hal yang Disukai</h2>
+        <p class="section-subtitle">
+          Berbagai aktivitas favorit dan kegemaran untuk mengisi waktu luang, menstimulasi imajinasi, memberikan inspirasi, serta juga menghibur.
+        </p>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- 4 Interest Cards -->
+      <div class="intrest-cards-grid">
+        
+        <!-- Hobi 1: Menggambar -->
+        <div class="intrest-card">
+          <div class="intrest-icon-box icon-drawing">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h4 class="intrest-title">Menggambar</h4>
+          <p class="intrest-desc">
+            Menggambar adalah salah satu media saya untuk mengekspresikan imajinasi dan ide kreatif ke dalam wujud visual. Saya sangat menikmati proses mulai dari coretan sketsa kasar, perbaikan garis, hingga eksperimen warna dan pencahayaan digital. sampai pada akhirnya gambarnya jadi dan enak di pandang.
+          </p>
+          <div class="intrest-badge-list">
+            <span class="intrest-sub-badge">Digital Art</span>
+            <span class="intrest-sub-badge">Character art &amp; Design</span>
+            <span class="intrest-sub-badge">Sketching</span>
+            <span class="intrest-sub-badge">Colouring &amp; Shading</span>
+          </div>
+        </div>
+
+        <!-- Hobi 2: Mendengarkan Musik -->
+        <div class="intrest-card">
+          <div class="intrest-icon-box icon-music">
+            <i class="fas fa-headphones-alt"></i>
+          </div>
+          <h4 class="intrest-title">Mendengarkan Musik</h4>
+          <p class="intrest-desc">
+            Musik adalah sumber inspirasi dan penenang yang menemani saya saat berkarya maupun bersantai. Alunan musik instrumental, Lo-Fi, Pop, dan lagu-lagu berenergi membantu meningkatkan fokus, mood positif, dan ritme saat menggambar dan melakukan hal lain
+          </p>
+          <div class="intrest-badge-list">
+            <span class="intrest-sub-badge">Pop Punk</span>
+            <span class="intrest-sub-badge">Instrumental</span>
+            <span class="intrest-sub-badge">Bedroom Pop</span>
+            <span class="intrest-sub-badge">Indie folk &amp; Light Emo</span>
+            <span class="intrest-sub-badge">Carabet Punk</span>
+            <span class="intrest-sub-badge">Internet Music &amp; Hyperpop-ish</span>
+            <span class="intrest-sub-badge">Sosial Anxiety</span>
+            <span class="intrest-sub-badge">Not Fitting Into Environtment</span>
+            <span class="intrest-sub-badge">Akward Relation &amp; Dark Humor</span>
+            <span class="intrest-sub-badge">Intropective &amp; Melancolic</span>
+            <span class="intrest-sub-badge">Absurd</span>
+          </div>
+        </div>
+
+        <!-- Hobi 3: Bermain Roblox (Grave/Digger & Grace) -->
+        <div class="intrest-card">
+          <div class="intrest-icon-box icon-roblox">
+            <img src="assets/images/logo-roblox.svg" alt="Roblox" width="36" height="36" style="border-radius: 8px;">
+          </div>
+          <h4 class="intrest-title">Bermain Roblox</h4>
+          <p class="intrest-desc">
+            Menikmati serunya dunia virtual Roblox bersama komunitas dan teman. Game favorit yang paling sering saya mainkan adalah game survival berlatar unik dan game petualangan menegangkan!
+          </p>
+          <div class="intrest-badge-list">
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-door-open"></i></i> Doors</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-sharp fa-solid fa-water"></i></i> Pressure</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-gun"></i></i> Buckshot</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-ghost"></i></i> Demonology</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-paper-plane"></i></i> Airship Assault</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-skull"></i></i> Guts &amp; Black Powder</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-person-military-rifle"></i></i> Grave/Digger</span>
+            <span class="intrest-sub-badge badge-roblox-game"><i class="fa-solid fa-cross"></i></i> Grace</span>
+            <span class="intrest-sub-badge">Survival &amp; Adventure</span>
+            <span class="intrest-sub-badge">Gamble</span>
+            <span class="intrest-sub-badge">Fast Pace &amp; OverStimulative</span>
+            <span class="intrest-sub-badge">Strategy &amp; Tactic</span>
+          </div>
+        </div>
+
+        <!-- Hobi 4: Terkadang Membaca Buku -->
+        <div class="intrest-card">
+          <div class="intrest-icon-box icon-books">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h4 class="intrest-title">Terkadang Membaca Buku</h4>
+          <p class="intrest-desc">
+            Di sela-sela rutinitas, saya meluangkan waktu untuk membaca buku, novel cerita, komik grafis, atau artikel-artikel. Membaca memperkaya kosa kata, membuka perspektif baru, dan menjadi referensi bagi karya-karya saya.
+          </p>
+          <div class="intrest-badge-list">
+            <span class="intrest-sub-badge">Novel &amp; Cerita</span>
+            <span class="intrest-sub-badge">Komik Visual</span>
+            <span class="intrest-sub-badge">Sastra</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PAGE 5: CONTACT (Location, Phone, Email, Web, and Interactive Form)
+       =================================================================== -->
+  <section id="contact">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Kontak &amp; Informasi</h2>
+        <p class="section-subtitle">
+          Jangan ragu untuk menghubungi saya untuk kolaborasi proyek kreatif, peluang magang/kerja, sekadar berdiskusi, atau hangout di vidio game!
+        </p>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- 4 Contact Info Cards: Location, Phone, Email, Web -->
+      <div class="contact-cards-grid">
+        
+        <!-- INFO 1: LOCATION -->
+        <div class="contact-info-card">
+          <div class="contact-icon-box">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-label">Location</div>
+          <p class="contact-val">Rejang Lebong, Curup, Bengkulu, Indonesia</p>
+        </div>
+
+        <!-- INFO 2: PHONE NUMBER -->
+        <div class="contact-info-card">
+          <div class="contact-icon-box">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-label">Phone Number</div>
+          <!-- GANTI NOMOR TELEPON ANDA DI SINI -->
+          <p class="contact-val">
+            <a href="tel:+6281234567890" class="text-white">+62 895-1234-5678</a>
+          </p>
+        </div>
+
+        <!-- INFO 3: EMAIL -->
+        <div class="contact-info-card">
+          <div class="contact-icon-box">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-label">Email</div>
+          <!-- GANTI EMAIL ANDA DI SINI -->
+          <p class="contact-val">
+            <a href="mailto:emailanda@example.com" class="text-white">merayaki@gmail.com</a>
+          </p>
+        </div>
+
+        <!-- INFO 4: WEB -->
+        <div class="contact-info-card">
+          <div class="contact-icon-box">
+            <i class="fa-brands fa-weixin"></i>
+          </div>
+          <div class="contact-label">Social Media</div>
+          <!-- GANTI ALAMAT WEBSITE DI SINI -->
+          <p class="contact-val">
+            <a href="https://www.instagram.com/just_jammer?utm_source=ig_web_button_share_sheet&dmpr=ZDNlZDc0MzIxNw==" target="_blank" class="text-white">Instagram,</a>
+            <a href="https://www.tiktok.com/@m.rasyaki?_r=1&_t=ZS-9BeDkBgO6RI" target="_blank" class="text-white">Tiktok,</a>
+            <a href="https://youtube.com/@m_rasyaki?si=8F0Gt_iIwxH4nVA6" target="_blank" class="text-white">Youtube.</a>
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Contact Form & Quick Action Box -->
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="contact-form-box">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+              <div>
+                <h4 class="text-white fw-bold mb-1">Kirim Pesan Langsung</h4>
+                <p class="text-muted small mb-0">Isi formulir di bawah ini dan saya akan merespons secepat mungkin.</p>
+              </div>
+              <!-- Tombol Cepat WhatsApp -->
+              <a href="https://wa.me/089512345678" target="_blank" class="btn btn-outline-success btn-sm rounded-pill px-3 py-2 text-white border-success">
+                <i class="fab fa-whatsapp text-success me-1"></i> Chat via WhatsApp
+              </a>
+            </div>
+
+            <!-- Notifikasi Sukses Form -->
+            <div id="formSuccessAlert" class="alert alert-success d-none text-dark fw-bold mb-4" role="alert">
+              <i class="fas fa-check-circle me-2"></i> Terima kasih! Pesan Anda telah berhasil terkirim.
+            </div>
+
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Nama Anda</label>
+                  <input type="text" class="form-control-aircv" placeholder="Contoh: Budi Santoso" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Anda</label>
+                  <input type="email" class="form-control-aircv" placeholder="Contoh: nama@gmail.com" required>
+                </div>
+                <div class="col-md-12">
+                  <label class="form-label">Subjek Pesan</label>
+                  <input type="text" class="form-control-aircv" placeholder="Subjek atau topik pesan..." required>
+                </div>
+                <div class="col-md-12">
+                  <label class="form-label">Isi Pesan</label>
+                  <textarea rows="4" class="form-control-aircv" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..." required></textarea>
+                </div>
+                <div class="col-md-12 text-center mt-4">
+                  <button type="submit" class="btn btn-primary-aircv px-5 py-3">
+                    <i class="fas fa-paper-plane me-2"></i> Kirimkan Pesan Sekarang
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       FOOTER (AirCV Styled Footer)
+       =================================================================== -->
+  <footer class="footer-aircv">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 footer-copy">
+          <p class="mb-0">
+            &copy; 2026 <strong>Portfolio CV</strong>. Didesain dengan tema <span class="text-white">AirCV</span> by ThemeWagon.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-socials">
+            <a class="social-circle-btn" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="social-circle-btn" title="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a class="social-circle-btn" title="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a class="social-circle-btn" title="Social Media">
+              <i class="fa-brands fa-weixin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       LIGHTBOX MODAL (Preview Pembesar 12 Panel Foto: 6 Magang & 6 Karya Art)
+       =================================================================== -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button id="lightboxClose" class="lightbox-close-btn" title="Tutup Modal (Esc)">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="lightbox-img-wrap">
+        <img id="lightboxImg" src="" alt="Pratinjau Foto">
+      </div>
+      <div class="lightbox-caption-wrap">
+        <h5 id="lightboxTitle" class="lightbox-title">Judul Foto</h5>
+        <p id="lightboxDesc" class="lightbox-desc">Deskripsi foto...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to top button -->
+  <a href="#home" id="backToTopBtn" class="back-to-top" title="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Bootstrap 5 Bundle JS with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
